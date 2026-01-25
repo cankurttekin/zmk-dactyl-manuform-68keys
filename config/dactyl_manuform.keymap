@@ -8,14 +8,40 @@
         default_layer {
             display-name = "Base";
             bindings = <
-                &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J &kp K &kp L
-                &kp M &kp N &kp O &kp P &kp Q &kp R &kp S &kp T &kp U &kp V &kp W &kp X
-                &kp Y &kp Z &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J
-                &kp K &kp L &kp M &kp N &kp O &kp P &kp Q &kp R &kp S &kp T &kp U &kp V
-                &kp W &kp X &kp Y &kp Z &kp A &kp B &kp C &kp D
-                &kp E &kp F &kp G &kp H
-                &kp I &kp J &kp K &kp L
-                &kp M &kp N &kp O &kp P
+&kp TILDE       &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4   &kp N5                           &kp G  &kp H  &kp I  &kp J  &kp K  &kp L
+&kp TAB         &kp Q            &kp W             &kp E              &kp R          &kp T                            &kp S  &kp T  &kp U  &kp V  &kp W  &kp X
+&kp ESCAPE      &kp A            &kp S             &kp D              &kp F          &kp G                            &kp E  &kp F  &kp G  &kp H  &kp I  &kp J
+&kp LEFT_SHIFT  &kp Z            &kp X             &kp C              &kp V          &kp B                            &kp Q  &kp R  &kp S  &kp T  &kp U  &kp V
+&kp LEFT_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                                                &kp A  &kp B  &kp C  &kp D
+                                                                      &kp BACKSPACE  &kp DELETE                       &kp G  &kp H
+                                                                                     &kp I       &kp LEFT_GUI  &kp K  &kp L
+                                                                                     &kp HOME    &kp LCTRL     &kp O  &kp P
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans
+                                &trans  &trans                  &trans  &trans
+                                        &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans
+                                &trans  &trans                  &trans  &trans
+                                        &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans
             >;
         };
     };
