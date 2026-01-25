@@ -1,0 +1,19 @@
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
+// instructions.
+
+#include "dactyl_manuform.dtsi"
+
+&kscan0 {
+    col-gpios = <
+        &nice_nano 14
+        &nice_nano 15
+        &nice_nano 16
+        &nice_nano 17
+        &nice_nano 18
+        &nice_nano 19
+    >;
+};
+
+&default_transform {
+    col-offset = <6>;
+};

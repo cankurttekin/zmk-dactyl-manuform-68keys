@@ -1,0 +1,18 @@
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
+// instructions.
+
+#include "dactyl_manuform.dtsi"
+
+&kscan0 {
+    // GPIO pins in the matrix for the left side.
+    // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
+    col-gpios = <
+        &nice_nano 8
+        &nice_nano 9
+        &nice_nano 10
+        &nice_nano 11
+        &nice_nano 12
+        &nice_nano 13
+    >;
+};
+
