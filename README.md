@@ -1,4 +1,4 @@
-# ZMK Configuration for Dactyl Manuform 68 keys
+# ZMK Configuration for Dactyl Cygnus 36 keys
 
 -----
 ![layer0](./assets/layer0.png) 
