@@ -1,10 +1,9 @@
-# ZMK Configuration for Dactyl Manuform 68 keys
+# ZMK Configuration for my keyboards
 
+## Branches
+* [manufom](https://github.com/cankurttekin/zmk-dactyl-manuform-68keys/tree/manuform-68keys)
+* [cygnus](https://github.com/cankurttekin/zmk-dactyl-manuform-68keys/tree/cygnus)
 -----
-![layer0](./assets/layer0.png) 
+![manuform](./assets/manuform.png) 
 
-![layer1](./assets/layer1.png) 
-
-![layer2](./assets/layer2.png) 
-
-![layer3](./assets/layer3.png) 
+![cygnus](./assets/cygnus.png) 

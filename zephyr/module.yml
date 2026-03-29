@@ -1,4 +1,0 @@
-name: zmk-keyboard-dactyl-manuform
-build:
-  settings:
-    board_root: .
