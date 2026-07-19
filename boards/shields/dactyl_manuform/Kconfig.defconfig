@@ -1,7 +1,13 @@
 if SHIELD_DACTYL_MANUFORM_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "dactylmanuform"
+    default "Dactyl Manuform"
+
+config ZMK_BATTERY_REPORTING
+    default y
+
+config ZMK_BATTERY_REPORT_INTERVAL
+    default 60
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
